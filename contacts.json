@@ -1,0 +1,22 @@
+{
+    "contacts": [
+        {
+            "id": "13561",
+            "name": "John Doe",
+            "phone": "50593324523",
+            "email": "johndoe@gmail.com",
+            "company": "Doe Inc.",
+            "notes": "",
+            "groups": []
+        },
+        {
+            "id": "46122",
+            "name": "Jane Doe",
+            "phone": "5053245432",
+            "email": "Jane@doe.com",
+            "company": "Doe Inc.",
+            "notes": "",
+            "groups": []
+        }
+    ]
+}

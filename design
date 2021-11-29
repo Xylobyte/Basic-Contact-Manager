@@ -1,0 +1,41 @@
+Contact class:
+    id: string
+    name: string
+    phone: string
+    email: string
+    company: string
+    notes: string
+    group: list
+
+commands:
+    add
+    remove
+    edit
+    list
+    search
+    commands
+    fix
+    group
+        add
+        remove
+    about
+    info
+    export
+    load
+    save
+    help
+    quit
+
+boot:
+    read command line flags first
+    look for a config file and set variables
+    load contacts fro json file if provided
+    enter main loop
+
+main loop:
+    prompt for commands and parse any flags from those commands.
+    update the contacts database when needed.
+
+on exit:
+    prompt for save
+    save contacts database to json file

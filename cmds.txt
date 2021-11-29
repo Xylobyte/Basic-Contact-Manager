@@ -1,0 +1,8 @@
+add
+name joe
+phone 555-555-5555
+add
+name jane is a very long name
+phone 555-555-5556
+notes this is a note
+remove jane is a very long name
